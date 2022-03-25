@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Get information about your Municipility </title>
+
+    <!--Style CSS ---------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--The logo & navbar links------------------->
+        <div class="nav-logo-container">
+            <img src="im/image3.png" alt="logo">
+           
+            <div class="nav-buttons">
+                 <button id="getActivities">What to do</button>
+                <button id="getgoodtoknowlist">New Information</button>
+            </div>
+        </div>
+        
+    <!--The big image Slider  ---------->
+        <div class="the-image">
+            <h1>Welcome To Sweden</h1>
+            <h4>Enter the name of the municipality <br> to get information easily </h4>
+            <div class="search-refresh">
+                <form id="form">
+                    <input type="text" placeholder="Search ..." id="search" class="search">
+                </form>
+               
+                <button onClick="window.location.reload();" class="btn-refresh"><img src="im/circular-arrow.png" alt="" style="width: 40px; height: 37px;"></button>
+            </div>
+
+             
+    <!--Three buttons for another information Region & Locals & Activity  ---------->
+         <div class="three-btn-container">
+            <button id="showRegion"><a href="#output3">Show Region</a></button>
+            <button id="showLocals"><a href="#output2"> Show Locals</a></button>
+            <button id="showActivities"><a href="#output1">Show Activities</a></button>
+        </div>
+        </div>
+
+
+    <!--The Nav Links & The OUTPUT of SEARCH ---------->
+        <div id="output"></div>
+
+    <!--Three buttons for activities  ---------->
+    <div id="outputAct"></div>
+    <div class="btnMoreActivity">
+        <div class="item hidden-item hideable"></div>
+        <button id="moreActivity" class="toggle-button">More Activities..<img src="im/down-arrow.png" alt="more"></button>
+    </div>
+    <!--The OUTPUT of buttons for activities--->
+    <div class="next-btn-container">
+        <div id="nextweek"></div>
+    </div>
+        
+    <!-- The OUTPUT of  Region & Locals & Activity   ---------->
+        <div id="output3"></div> 
+        <div id="output2"></div>
+        <div id="output1"></div>
+            
+
+
+    <!--The Footer ---------->
+    <footer>
+        <div class="firsttext">
+            <p>International press room</p>
+            <p> Swedish press room</p>
+            <p> FOLLOW US</p>
+        </div>
+          
+        <div class="follow">
+            <a href="https://www.instagram.com/visitsweden/"><img class="iconinsta" src="im/instagram (3).png"></a>
+            <a href="https://www.youtube.com/VisitSwedenOfficial"><img class="inconyout" src="im/youtube.png"></a>
+            <a href="https://www.facebook.com/VisitSweden/"><img class="iconface" src="im/facebook (1).png"></a>
+        </div>
+
+        <div class="line-1"></div>
+
+        <div class="två-div-container">
+            <div class="policy">
+                    <p>Cookies and analytics</p>
+                    <p>Personal Data Policy</p>
+                    <p>Accessibility statement</p>
+                    <p class="copyright">Copyright Ⓒ 2022 Visit Sweden</p>
+            </div>
+         
+            <div class="rek-container-img">
+                <a href="https://sweden.se/"><img class="sverige11" src="im/sweden.png"><img class="sverige1" src="im/sweden-and-ukrainewebb.jpg"></a>
+                <a href="https://si.se/"><img class="sverige2" src="im/institut.png"></a>
+                <a href="https://www.business-sweden.com/?gclid=CjwKCAjwrfCRBhAXEiwAnkmKmRALCxwWtpm6LX-XyTAWrwMLCAFsJnMoqGPaN4P9cN4sdgT1nUxBcRoCrPwQAvD_BwE"><img class="sverige3" src="im/business.png"></a>
+                <a href="https://visitsweden.com/"><img class="sverige4" src="im/visit.png"></a>
+                <a href="https://www.regeringen.se/"><img class="sverige5" src="im/regering (2).png"></a>
+            </div>
+
+           
+        </div>
+
+        
+              
+       
+        
+    </footer>
+
+
+    <!--JS link  ---------->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
